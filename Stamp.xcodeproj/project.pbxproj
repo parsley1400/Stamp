@@ -15,6 +15,11 @@
 		81CCBB7A2509F3130093781D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81CCBB782509F3130093781D /* LaunchScreen.storyboard */; };
 		81CCBB852509F3130093781D /* StampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CCBB842509F3130093781D /* StampTests.swift */; };
 		81CCBB902509F3130093781D /* StampUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CCBB8F2509F3130093781D /* StampUITests.swift */; };
+		81CCBBA32509F4260093781D /* hana.png in Resources */ = {isa = PBXBuildFile; fileRef = 81CCBB9E2509F4260093781D /* hana.png */; };
+		81CCBBA42509F4260093781D /* onpu.png in Resources */ = {isa = PBXBuildFile; fileRef = 81CCBB9F2509F4260093781D /* onpu.png */; };
+		81CCBBA52509F4260093781D /* hoshi.png in Resources */ = {isa = PBXBuildFile; fileRef = 81CCBBA02509F4260093781D /* hoshi.png */; };
+		81CCBBA62509F4260093781D /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 81CCBBA12509F4260093781D /* background.png */; };
+		81CCBBA72509F4260093781D /* shitumon.png in Resources */ = {isa = PBXBuildFile; fileRef = 81CCBBA22509F4260093781D /* shitumon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		81CCBB8B2509F3130093781D /* StampUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StampUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81CCBB8F2509F3130093781D /* StampUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StampUITests.swift; sourceTree = "<group>"; };
 		81CCBB912509F3130093781D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81CCBB9E2509F4260093781D /* hana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hana.png; sourceTree = "<group>"; };
+		81CCBB9F2509F4260093781D /* onpu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = onpu.png; sourceTree = "<group>"; };
+		81CCBBA02509F4260093781D /* hoshi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hoshi.png; sourceTree = "<group>"; };
+		81CCBBA12509F4260093781D /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		81CCBBA22509F4260093781D /* shitumon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shitumon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,7 @@
 		81CCBB6C2509F3100093781D /* Stamp */ = {
 			isa = PBXGroup;
 			children = (
+				81CCBB9D2509F4260093781D /* Stamp素材 */,
 				81CCBB6D2509F3100093781D /* AppDelegate.swift */,
 				81CCBB6F2509F3100093781D /* SceneDelegate.swift */,
 				81CCBB712509F3100093781D /* ViewController.swift */,
@@ -126,6 +137,18 @@
 				81CCBB912509F3130093781D /* Info.plist */,
 			);
 			path = StampUITests;
+			sourceTree = "<group>";
+		};
+		81CCBB9D2509F4260093781D /* Stamp素材 */ = {
+			isa = PBXGroup;
+			children = (
+				81CCBB9E2509F4260093781D /* hana.png */,
+				81CCBB9F2509F4260093781D /* onpu.png */,
+				81CCBBA02509F4260093781D /* hoshi.png */,
+				81CCBBA12509F4260093781D /* background.png */,
+				81CCBBA22509F4260093781D /* shitumon.png */,
+			);
+			path = "Stamp素材";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,8 +256,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				81CCBB7A2509F3130093781D /* LaunchScreen.storyboard in Resources */,
+				81CCBBA52509F4260093781D /* hoshi.png in Resources */,
+				81CCBBA62509F4260093781D /* background.png in Resources */,
+				81CCBBA42509F4260093781D /* onpu.png in Resources */,
 				81CCBB772509F3130093781D /* Assets.xcassets in Resources */,
 				81CCBB752509F3100093781D /* Main.storyboard in Resources */,
+				81CCBBA72509F4260093781D /* shitumon.png in Resources */,
+				81CCBBA32509F4260093781D /* hana.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
